@@ -1,0 +1,6 @@
+/* Card Height Maximum */
+
+.cardRow {
+    max-height: 400px;
+    overflow: hidden;
+}

@@ -76,10 +76,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">About Sean</a>
+            <a class="nav-link" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Highlights</a>
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -95,11 +98,13 @@
               <li><a class="dropdown-item" href="#">Module 1: HTML</a></li>
               <li><a class="dropdown-item" href="#">Module 2: CSS</a></li>
               <li><a class="dropdown-item" href="#">Module 3: Bootstrap</a></li>
-              <li><a class="dropdown-item" href="#">Module 4: JavaScript</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Module 4: JavaScript</a>
+              </li>
               <li><hr class="dropdown-divider" /></li>
               <li><a class="dropdown-item" href="#">Highlights</a></li>
             </ul>
-         </li>
+          </li>
           <button type="button" class="btn btn-primary">Contact</button>
         </ul>
       </div>
@@ -110,66 +115,59 @@
 
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col 10 col-sm-8 col-lg-6">
-            <img src="images/sean-donnelly-learning-to-code.jpg" class="d-block mx-lg-auto img-fluid" alt="Sean Donnelly sat at a desk and looking at the camera" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm Sean</h1>
-            <p class="lead">
-                I'm learning to code and this is where I'm going to keep all of my work. 
-            </p>
-        </div>
+      <div class="col 10 col-sm-8 col-lg-6">
+        <img
+          src="images/sean-donnelly-learning-to-code.jpg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Sean Donnelly sat at a desk and looking at the camera"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm Sean</h1>
+        <p class="lead">
+          I'm learning to code and this is where I'm going to keep all of my
+          work.
+        </p>
+      </div>
     </div>
   </div>
 
   <!-- About Sean -->
 
-  <div class="container-sm text-center m-b-6">
+  <div class="container-sm text-center" id="about-me">
     <h2>I'm an entrepreneur, learning to code</h2>
-    <p>I've always loved creating things. I founded CharityBI and Ripples: tech products that enable charities to do more good. Until now, I have been a non-technical co-founder. But that's all about to change because I have finally begun learning to code. This is something I have wanted to do for a long time. I'm loving it so far and can't wait to contribute to the tech side of things in the near future. This page is where I'm going to start building my portfolio of work. Look out world...</p>
+    <p>
+      I've always loved creating things. I founded CharityBI and Ripples: tech
+      products that enable charities to do more good. Until now, I have been a
+      non-technical co-founder. But that's all about to change because I have
+      finally begun learning to code. This is something I have wanted to do for
+      a long time. I'm loving it so far and can't wait to contribute to the tech
+      side of things in the near future. This page is where I'm going to start
+      building my portfolio of work. Look out world...
+    </p>
   </div>
 
-  <!-- Highlights -->
-
-  <div class="container-fluid" id="Highlights">
+  <!-- Highlights (Cards) -->
+  <div class="container-fluid content m-5" id="work">
+    <h2 class="sectionHeading p-5 text-center">Work</h2>
     <div class="row">
-      <div class="col-6">
-        1 of 3 (wider)
-      </div>
-      <div class="col-3">
-        2 of 3 
-      </div>
-      <div class="col-3">
-        3 of 3
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col-5">
-        2 of 3 (wider)
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-
-
-<!-- Highlights (Cards) -->
-<div class="container-fluid content" id="Highlights">
-    <h2 class="sectionHeading">Highlights</h2>
-    <div class="row">
-
       <!-- Card 1 -->
       <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card">
-          <img src="images/furniture-website.png" class="card-img-top" alt="...">
+          <img
+            src="images/furniture-website.png"
+            class="card-img-top"
+            alt="..."
+          />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">One quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">
+              One quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -179,11 +177,13 @@
       <!-- Card 2 -->
       <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
         <div class="card">
-          <img src="images/jakes-eatery.png" class="card-img-top" alt="...">
+          <img src="images/jakes-eatery.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -193,20 +193,25 @@
       <!-- Card 3 -->
       <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
         <div class="card">
-          <img src="images/horiseon.png" class="card-img-top" alt="...">
+          <img src="images/horiseon.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-      <!-- End card 3 -->
+    </div>
+  </div>
 
+  <!-- End card 3 -->
 
+  
 
-  <!-- Modules - Coming soon -->
+  <!-- Skills -->
 
   <!-- Contact -->
 
