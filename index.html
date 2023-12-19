@@ -6,7 +6,7 @@
     <!-- Viewport Meta Tag to help with responsive design on mobile devices-->
 
     <!-- Favicon - with thanks to https://realfavicongenerator.net/ -->
-    <link
+    <link 
       rel="apple-touch-icon"
       sizes="180x180"
       href="images/favicon_package_v0.16/apple-touch-icon.png"
@@ -57,9 +57,13 @@
     <title>Sean's Portfolio</title>
   </head>
 
+
+  <body>
+   
+
   <!-- Navigation-->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Sean Donnelly</a>
       <button
@@ -111,8 +115,9 @@
     </div>
   </nav>
 
-  <!-- Hero Section... Note: I have not used a Jumbotron because it was discontinued in Bootstrap 5 -->
 
+
+  <!-- Hero Section... Note: I have not used a Jumbotron because it was discontinued in Bootstrap 5 -->
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col 10 col-sm-8 col-lg-6">
@@ -156,7 +161,7 @@
   </div>
 
   <!-- Highlights (Cards) -->
-  <div class="container-fluid content m-5" id="work">
+  <div class="container-fluid content m-5 p-5 bg-light" id="work">
     <h2 class="sectionHeading p-5 text-center">Work</h2>
     <div class="row">
       <!-- Card 1 -->
@@ -211,11 +216,9 @@
       </div>
     </div>
   </div>
-
   <!-- End card 3 -->
 
   <!-- Skills -->
-
   <div class="container" id="skills">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 mx-auto mb-5">
@@ -237,8 +240,20 @@
 
   <!-- Contact -->
 
-  <!-- Footer -->
 
-  <!DOCTYPE html>
-  <html lang="en"></html>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-dark-subtle">
+    <footer class="py-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.linkedin.com/in/seandonnelly92/" class="nav-link px-2 text-muted link-opacity-50-hover">LinkedIn</a></li>
+        <li class="nav-item"><a href="https://twitter.com/Sean_M_Donnelly" class="nav-link px-2 text-muted">Twitter</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2023 Made with some love, but mostly frustration, by Sean Donnelly</p>
+    </footer>
+  </div>
+  
+
+</body>
 </html>
