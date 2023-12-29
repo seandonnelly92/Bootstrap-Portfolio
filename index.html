@@ -6,7 +6,7 @@
     <!-- Viewport Meta Tag to help with responsive design on mobile devices-->
 
     <!-- Favicon - with thanks to https://realfavicongenerator.net/ -->
-    <link 
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="images/favicon_package_v0.16/apple-touch-icon.png"
@@ -57,176 +57,222 @@
     <title>Sean's Portfolio</title>
   </head>
 
-
   <body>
-   
+    <!-- Navigation-->
 
-  <!-- Navigation-->
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="images/sean-avatar.png" alt="Logo" width="30" height="auto" class="d-inline-block align-text-center me-1">
-            Sean Donnelly
-          </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#intro">Intro</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle disabled"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Modules
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Module 1: HTML</a></li>
-              <li><a class="dropdown-item" href="#">Module 2: CSS</a></li>
-              <li><a class="dropdown-item" href="#">Module 3: Bootstrap</a></li>
-              <li>
-                <a class="dropdown-item" href="#">Module 4: JavaScript</a>
-              </li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Highlights</a></li>
-            </ul>
-          </li>
-          <a href="#contact"><button type="button" class="btn btn-primary">Contact</button></a>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-
-  <!-- Hero Section... Note: I have not used a Jumbotron because it was discontinued in Bootstrap 5 -->
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col 10 col-sm-8 col-lg-6">
-        <img
-          src="images/sean-donnelly-learning-to-code.jpg"
-          class="d-block mx-lg-auto img-fluid rounded-2"
-          alt="Sean Donnelly sat at a desk and looking at the camera"
-          width="700"
-          height="500"
-          loading="lazy"
-        />
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm Sean</h1>
-        <p class="lead">
-          I'm learning to code and this is where I'm going to keep all of my
-          work.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Intro -->
-
-  <div class="container text-center" id="intro">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 mx-auto my-5 py-5">
-        <h2>I'm an entrepreneur, learning to code</h2>
-        <p>
-          I've always loved creating things. I founded <a class="text-decoration-none" href="https://www.charity.bi">CharityBI</a> and <a class="text-decoration-none" href="https://www.joinripples.org">Ripples</a>:
-          tech products that enable charities to do more good. Until now, I have
-          been a non-technical co-founder. But that's all about to change
-          because I have finally begun learning to code. This is something I
-          have wanted to do for a long time. I'm loving it so far and can't wait
-          to contribute to the tech side of things in the near future. This page
-          is where I'm going to start building my portfolio of work. Look out
-          world...
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Highlights (Cards) -->
-  <div class="container-fluid content p-5 bg-light" id="work">
-    <h2 class="sectionHeading p-5 text-center">Work</h2>
-    <div class="row">
-
-
-      <!-- Card 1 -->
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-12 mb-3">
-        <div class="card">
           <img
-            src="images/furniture-website.png"
-            class="card-img-to"
-            alt="..."
+            src="images/sean-avatar.png"
+            alt="Logo"
+            width="30"
+            height="auto"
+            class="d-inline-block align-text-center me-1"
           />
-          <div class="card-body">
-            <h5 class="card-title">Furniture Store</h5>
-            <p class="card-text">
-              In this activity, I learned how to use grid, media queries, advanced selectors and variables in CSS.
-            </p>
-            <a href="https://seandonnelly92.github.io/module-2-CSS-tasks/02-grid-media-queries-lesson/activities/02-Stu-CSS-Grid-Part-2/starter/index.html" class="btn btn-primary">Visit</a>
-          </div>
+          Sean Donnelly
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle disabled"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Modules
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Module 1: HTML</a></li>
+                <li><a class="dropdown-item" href="#">Module 2: CSS</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Module 3: Bootstrap</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Module 4: JavaScript</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Highlights</a></li>
+              </ul>
+            </li>
+            <a href="#contact"
+              ><button type="button" class="btn btn-primary">Contact</button></a
+            >
+          </ul>
         </div>
       </div>
-      <!-- End card 1 -->
+    </nav>
 
-      <!-- Card 2 -->
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="card">
-          <img src="images/jakes-eatery.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Jake's Eatery</h5>
-            <p class="card-text">
-              This was my first time working with Flexbox in CSS.
-            </p>
-            <a href="https://seandonnelly92.github.io/module-2-CSS-tasks/01-flexbox-lesson/activities/03-Stu-Jakes-Eatery/starter/index.html" class="btn btn-primary">Visit</a>
-          </div>
+    <!-- Hero Section... Note: I have not used a Jumbotron because it was discontinued in Bootstrap 5 -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col 10 col-sm-8 col-lg-6">
+          <img
+            src="images/sean-donnelly-learning-to-code.jpg"
+            class="d-block mx-lg-auto img-fluid rounded-2"
+            alt="Sean Donnelly sat at a desk and looking at the camera"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
         </div>
-      </div>
-      <!-- End card 2 -->
-
-      <!-- Card 3 -->
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="card">
-          <img src="images/horiseon.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Horiseon</h5>
-            <p class="card-text">
-              Refactoring HTML to make it more accessible.
-            </p>
-            <a href="https://seandonnelly92.github.io/m1-challenge-horiseon/" class="btn btn-primary">Visit</a>
-          </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm Sean</h1>
+          <p class="lead">
+            I'm learning to code and this is where I'm going to keep all of my
+            work.
+          </p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- End card 3 -->
 
-  <!-- Skills & About Me -->
-  <div class="container p-5 my-5" id="skills">
-    <div class="row">
-      <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
-        <h2 class="text-center pt-3">Skills</h2>
-        <p>Over the course of the EdX bootcamp, I will develop the following skills:</p>
-        <ul class="list-group list-group-flush">
+    <!-- Intro -->
+
+    <div class="container text-center" id="intro">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mx-auto my-5 py-5">
+          <h2>I'm an entrepreneur, learning to code</h2>
+          <p>
+            I've always loved creating things. I founded
+            <a class="text-decoration-none" href="https://www.charity.bi"
+              >CharityBI</a
+            >
+            and
+            <a class="text-decoration-none" href="https://www.joinripples.org"
+              >Ripples</a
+            >: tech products that enable charities to do more good. Until now, I
+            have been a non-technical co-founder. But that's all about to change
+            because I have finally begun learning to code. This is something I
+            have wanted to do for a long time. I'm loving it so far and can't
+            wait to contribute to the tech side of things in the near future.
+            This page is where I'm going to start building my portfolio of work.
+            Look out world...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Highlights (Cards) -->
+    <div class="container-fluid content p-5 bg-light" id="work">
+      <h2 class="sectionHeading p-5 text-center">Work</h2>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 mb-3">
+          <div class="card">
+            <img
+              src="images/furniture-website.png"
+              class="card-img-to"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Furniture Store</h5>
+              <p class="card-text">
+                In this activity, I learned how to use grid, media queries,
+                advanced selectors and variables in CSS.
+              </p>
+              <a
+                href="https://seandonnelly92.github.io/module-2-CSS-tasks/02-grid-media-queries-lesson/activities/02-Stu-CSS-Grid-Part-2/starter/index.html"
+                class="btn btn-primary"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- End card 1 -->
+
+        <!-- Card 2 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-12 mb-3">
+          <div class="card">
+            <img src="images/jakes-eatery.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jake's Eatery</h5>
+              <p class="card-text">
+                This was my first time working with Flexbox in CSS.
+              </p>
+              <a
+                href="https://seandonnelly92.github.io/module-2-CSS-tasks/01-flexbox-lesson/activities/03-Stu-Jakes-Eatery/starter/index.html"
+                class="btn btn-primary"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- End card 2 -->
+
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-12 mb-3">
+          <div class="card">
+            <img src="images/horiseon.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Horiseon</h5>
+              <p class="card-text">
+                Refactoring HTML to make it more accessible.
+              </p>
+              <a
+                href="https://seandonnelly92.github.io/m1-challenge-horiseon/"
+                class="btn btn-primary"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- End card 3 -->
+
+        <!-- Card 4 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-12 mb-3">
+          <div class="card">
+            <img src="images/rps.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissors!</h5>
+              <p class="card-text">
+                Creating a game with JavaScript
+              </p>
+              <a
+                href="https://seandonnelly92.github.io/rock-paper-scissors/"
+                class="btn btn-primary"
+                >Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- End card 4 -->
+      </div>
+    </div>
+
+    <!-- Skills & About Me -->
+    <div class="container p-5 my-5" id="skills">
+      <div class="row">
+        <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
+          <h2 class="text-center pt-3">Skills</h2>
+          <p>
+            Over the course of the EdX bootcamp, I will develop the following
+            skills:
+          </p>
+          <ul class="list-group list-group-flush">
             <li class="list-group-item">HTML</li>
             <li class="list-group-item">CSS</li>
             <li class="list-group-item">Git</li>
@@ -236,43 +282,77 @@
             <li class="list-group-item">Test-Driven Development</li>
             <li class="list-group-item">React</li>
           </ul>
-      </div>
-      <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
-        <h2 class="text-center pt-3">About Me</h2>
-        <p>I've always loved creating things. I founded CharityBI and Ripples: tech products that enable charities to do more good. Until now, I have been a non-technical co-founder. But that's all about to change because I have finally begun learning to code.</p>
-        <p>This is something I have wanted to do for a long time. I'm loving it so far and can't wait to contribute to the tech side of things in the near future. This page is where I'm going to start building my portfolio of work. Look out world...</p>
+        </div>
+        <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
+          <h2 class="text-center pt-3">About Me</h2>
+          <p>
+            I've always loved creating things. I founded CharityBI and Ripples:
+            tech products that enable charities to do more good. Until now, I
+            have been a non-technical co-founder. But that's all about to change
+            because I have finally begun learning to code.
+          </p>
+          <p>
+            This is something I have wanted to do for a long time. I'm loving it
+            so far and can't wait to contribute to the tech side of things in
+            the near future. This page is where I'm going to start building my
+            portfolio of work. Look out world...
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Contact -->
-  <div class="container-fluid p-5 bg-light" id="contact">
-    <div class="row">
-      <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
-        <h2 class="text-center mb-5">Contact</h2>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a class="text-decoration-none" href="mailto:hello@seandonnelly.co.uk">hello@seandonnelly.co.uk</a></li>
+    <!-- Contact -->
+    <div class="container-fluid p-5 bg-light" id="contact">
+      <div class="row">
+        <div class="col-lg-4 col-md-10 col-sm-12 mx-auto mb-5">
+          <h2 class="text-center mb-5">Contact</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a
+                class="text-decoration-none"
+                href="mailto:hello@seandonnelly.co.uk"
+                >hello@seandonnelly.co.uk</a
+              >
+            </li>
             <li class="list-group-item">07000 000 000</li>
           </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-
-
-
-  <!-- Footer -->
-  <div class="container-fluid bg-dark-subtle">
-    <footer class="py-3">
-      <ul class="nav justify-content-center border-bottom border-dark-subtle pb-3 mb-3">
-        <li class="nav-item"><a href="https://www.linkedin.com/in/seandonnelly92/" class="nav-link px-2 link-opacity-25-hover">LinkedIn</a></li>
-        <li class="nav-item"><a href="https://twitter.com/Sean_M_Donnelly" class="nav-link px-2 link-opacity-25-hover">Twitter</a></li>
-        <li class="nav-item"><a href="https://github.com/seandonnelly92/" class="nav-link px-2 link-opacity-25-hover">GitHub</a></li>
-      </ul>
-      <p class="text-center text-muted">&copy; 2023 Made with some love, but mostly frustration, by Sean Donnelly 😉</p>
-    </footer>
-  </div>
-  
-
-</body>
+    <!-- Footer -->
+    <div class="container-fluid bg-dark-subtle">
+      <footer class="py-3">
+        <ul
+          class="nav justify-content-center border-bottom border-dark-subtle pb-3 mb-3"
+        >
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/seandonnelly92/"
+              class="nav-link px-2 link-opacity-25-hover"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://twitter.com/Sean_M_Donnelly"
+              class="nav-link px-2 link-opacity-25-hover"
+              >Twitter</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://github.com/seandonnelly92/"
+              class="nav-link px-2 link-opacity-25-hover"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">
+          &copy; 2023 Made with some love, but mostly frustration, by Sean
+          Donnelly 😉
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
